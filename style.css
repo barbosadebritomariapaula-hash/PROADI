@@ -1,0 +1,85 @@
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    min-height: 100vh;
+}
+
+/* Cartão de login */
+main {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Título PROADI */
+h1 {
+    color: #1e3a8a;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Textos */
+p {
+    line-height: 1.6;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+/* Destaque dos campos */
+input:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+/* Botões */
+button {
+    min-height: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Link de cadastro */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 480px) {
+    main {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input,
+    button {
+        font-size: 16px;
+    }
+}
